@@ -1,0 +1,22 @@
+{
+    "require": {
+        "symfony/config": "^4.1",
+        "symfony/http-kernel": "^4.1",
+        "symfony/http-foundation": "^4.1",
+        "symfony/routing": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/framework-bundle": "^4.1",
+        "doctrine/annotations": "^1.6",
+        "symfony/console": "^4.1",
+        "symfony/validator": "^4.1",
+        "symfony/yaml": "^4.0",
+        "symfony/twig-bundle": "^4.0",
+        "symfony/templating": "^4.1",
+        "symfony/var-dumper": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
